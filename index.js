@@ -28,20 +28,44 @@ function sum(){
 var xAndY = [readline.questionFloat('x = '),readline.questionFloat('y = ')]
 var calc = xAndY[0] + xAndY[1]
 console.log(xAndY[0]+" + "+xAndY[1]+" = "+calc)
+if(readline.keyInYN("\nDeseja reiniciar o programa: ")){
+	start()
+}
+else{
+	console.log("Goodbye!")
+}
 }
 function multiply(){
 var xAndY = [readline.questionFloat('x = '),readline.questionFloat('y = ')]
 var calc = xAndY[0] * xAndY[1]
 console.log(xAndY[0]+" * "+xAndY[1]+" = "+calc)
+if(readline.keyInYN("\nDeseja reiniciar o programa: ")){
+	start()
+}
+else{
+	console.log("Goodbye!")
+}
 }
 function divide(){
 var xAndY = [readline.questionFloat('x = '),readline.questionFloat('y = ')]
 var calc = xAndY[0] / xAndY[1]
 console.log(xAndY[0]+" / "+xAndY[1]+" = "+calc)
+if(readline.keyInYN("\nDeseja reiniciar o programa: ")){
+	start()
+}
+else{
+	console.log("Goodbye!")
+}
 }
 function subtract(){
 var xAndY = [readline.questionFloat('x = '),readline.questionFloat('y = ')]
 var calc = xAndY[0] - xAndY[1]
 console.log(xAndY[0]+" - "+xAndY[1]+" = "+calc)
+if(readline.keyInYN("\nDeseja reiniciar o programa: ")){
+	start()
+}
+else{
+	console.log("Goodbye!")
+}
 }
 start()
