@@ -5,7 +5,7 @@ console.log('repository: https://github.com/luizguilhermegzg/Calculadora-Intelig
 chooseOperation()
 function chooseOperation(){
 var mathOperations = ['Somar','Subtrair','Multiplicar','Dividir'] 
-var mathChose= readline.keyInSelect(mathOperations,'\nEscolha uma operação: ')
+var mathChose= readline.keyInSelect(mathOperations,'Escolha uma operação: ')
 if (mathChose == 0){
   sum()
 }
